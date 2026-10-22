@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PM-01",
+    "owner": "product",
+    "days_to_due": 3,
+    "progress": 70,
+    "blocker": false,
+    "criticality": "high"
+  },
+  {
+    "id": "PM-02",
+    "owner": "operations",
+    "days_to_due": -2,
+    "progress": 50,
+    "blocker": true,
+    "criticality": "high"
+  },
+  {
+    "id": "PM-03",
+    "owner": "research",
+    "days_to_due": 8,
+    "progress": 40,
+    "blocker": true,
+    "criticality": "medium"
+  },
+  {
+    "id": "PM-04",
+    "owner": "engineering",
+    "days_to_due": 0,
+    "progress": 100,
+    "blocker": false,
+    "criticality": "high"
+  }
+]
