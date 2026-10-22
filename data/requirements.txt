@@ -1,0 +1,7 @@
+# SYNTHETIC procurement requirements: ID | topic | expected | unit
+R01 | lead_time | <=14 | days
+R02 | recycled_content | >=40 | percent
+R03 | warranty | >=24 | months
+R04 | environmental_declaration | yes | boolean
+R05 | traceability | batch | category
+R06 | defect_rate | <=1.5 | percent

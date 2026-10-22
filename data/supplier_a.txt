@@ -1,0 +1,7 @@
+# SYNTHETIC supplier A, no real organization
+R01 | lead_time | 12 | days
+R02 | recycled_content | 45 | percent
+R03 | warranty | 24 | months
+R04 | environmental_declaration | yes | boolean
+R05 | traceability | batch | category
+R06 | defect_rate | 1.0 | percent

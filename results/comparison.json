@@ -1,0 +1,126 @@
+{
+  "supplier_a": [
+    {
+      "requirement": "R01",
+      "topic": "lead_time",
+      "expected": "<=14",
+      "actual": "12",
+      "status": "met",
+      "source": "supplier_a.txt",
+      "line": 2,
+      "quote": "R01 | lead_time | 12 | days"
+    },
+    {
+      "requirement": "R02",
+      "topic": "recycled_content",
+      "expected": ">=40",
+      "actual": "45",
+      "status": "met",
+      "source": "supplier_a.txt",
+      "line": 3,
+      "quote": "R02 | recycled_content | 45 | percent"
+    },
+    {
+      "requirement": "R03",
+      "topic": "warranty",
+      "expected": ">=24",
+      "actual": "24",
+      "status": "met",
+      "source": "supplier_a.txt",
+      "line": 4,
+      "quote": "R03 | warranty | 24 | months"
+    },
+    {
+      "requirement": "R04",
+      "topic": "environmental_declaration",
+      "expected": "yes",
+      "actual": "yes",
+      "status": "met",
+      "source": "supplier_a.txt",
+      "line": 5,
+      "quote": "R04 | environmental_declaration | yes | boolean"
+    },
+    {
+      "requirement": "R05",
+      "topic": "traceability",
+      "expected": "batch",
+      "actual": "batch",
+      "status": "met",
+      "source": "supplier_a.txt",
+      "line": 6,
+      "quote": "R05 | traceability | batch | category"
+    },
+    {
+      "requirement": "R06",
+      "topic": "defect_rate",
+      "expected": "<=1.5",
+      "actual": "1.0",
+      "status": "met",
+      "source": "supplier_a.txt",
+      "line": 7,
+      "quote": "R06 | defect_rate | 1.0 | percent"
+    }
+  ],
+  "supplier_b": [
+    {
+      "requirement": "R01",
+      "topic": "lead_time",
+      "expected": "<=14",
+      "actual": "18",
+      "status": "exception",
+      "source": "supplier_b.txt",
+      "line": 2,
+      "quote": "R01 | lead_time | 18 | days"
+    },
+    {
+      "requirement": "R02",
+      "topic": "recycled_content",
+      "expected": ">=40",
+      "actual": "30",
+      "status": "exception",
+      "source": "supplier_b.txt",
+      "line": 3,
+      "quote": "R02 | recycled_content | 30 | percent"
+    },
+    {
+      "requirement": "R03",
+      "topic": "warranty",
+      "expected": ">=24",
+      "actual": "2",
+      "status": "unit_mismatch",
+      "source": "supplier_b.txt",
+      "line": 4,
+      "quote": "R03 | warranty | 2 | years"
+    },
+    {
+      "requirement": "R04",
+      "topic": "environmental_declaration",
+      "expected": "yes",
+      "actual": "tbd",
+      "status": "unknown",
+      "source": "supplier_b.txt",
+      "line": 5,
+      "quote": "R04 | environmental_declaration | tbd | boolean"
+    },
+    {
+      "requirement": "R05",
+      "topic": "traceability",
+      "expected": "batch",
+      "actual": null,
+      "status": "missing",
+      "source": null,
+      "line": null,
+      "quote": null
+    },
+    {
+      "requirement": "R06",
+      "topic": "defect_rate",
+      "expected": "<=1.5",
+      "actual": "1.2",
+      "status": "met",
+      "source": "supplier_b.txt",
+      "line": 6,
+      "quote": "R06 | defect_rate | 1.2 | percent"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "supplier_a": [
+    "met",
+    "met",
+    "met",
+    "met",
+    "met",
+    "met"
+  ],
+  "supplier_b": [
+    "exception",
+    "exception",
+    "unit_mismatch",
+    "unknown",
+    "missing",
+    "met"
+  ],
+  "retrieval": [
+    {
+      "query": "lead_time 12",
+      "source": "supplier_a.txt",
+      "id": "R01"
+    },
+    {
+      "query": "warranty 2 years",
+      "source": "supplier_b.txt",
+      "id": "R03"
+    },
+    {
+      "query": "environmental_declaration tbd",
+      "source": "supplier_b.txt",
+      "id": "R04"
+    },
+    {
+      "query": "delivery duration",
+      "source": "supplier_a.txt",
+      "id": "R01"
+    }
+  ]
+}

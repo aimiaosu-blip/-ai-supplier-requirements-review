@@ -1,0 +1,40 @@
+[
+  {
+    "query": "lead_time 12",
+    "source": "supplier_a.txt",
+    "id": "R01",
+    "hit_at_3": true,
+    "retrieved": [
+      "supplier_a.txt:R01",
+      "supplier_b.txt:R01"
+    ]
+  },
+  {
+    "query": "warranty 2 years",
+    "source": "supplier_b.txt",
+    "id": "R03",
+    "hit_at_3": true,
+    "retrieved": [
+      "supplier_b.txt:R03",
+      "supplier_a.txt:R03",
+      "supplier_b.txt:R06"
+    ]
+  },
+  {
+    "query": "environmental_declaration tbd",
+    "source": "supplier_b.txt",
+    "id": "R04",
+    "hit_at_3": true,
+    "retrieved": [
+      "supplier_b.txt:R04",
+      "supplier_a.txt:R04"
+    ]
+  },
+  {
+    "query": "delivery duration",
+    "source": "supplier_a.txt",
+    "id": "R01",
+    "hit_at_3": false,
+    "retrieved": []
+  }
+]
